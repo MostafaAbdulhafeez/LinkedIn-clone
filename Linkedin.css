@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #bbbcbd;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+    font-size: small;
+    
+}
+
+.container{
+    width: 70%;
+    padding-top: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 260px auto 260px;
+
+}
+
+hr{
+    color: #bbbcbd;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    background-color: #1b1f23;
+    position: fixed;
+    text-align: center;
+    top: 0;    
+    left: 0;
+    border-bottom: 1px solid  gray;
+    
+
+}
+
+.search{
+    border-radius: 5px;
+    width:250px;
+    height:30px;
+    background-color:#38434f;
+    color:white;
+    border:#38434f;
+    transform: translateY(-35%);
+    
+}
+
+
+.navbarLt,.navbarIcons{
+    display: inline-block;
+    margin: 0 40px ;
+}
+
+
+.icons{
+    list-style-type: none;
+}
+.icons li{
+    display: inline-block;
+    padding: 0 5px;
+    
+}
+
+.icons li  a i:hover,.icons li a p:hover,.me:hover,.for:hover{
+        color: white;
+}
+
+.logo{
+    color: #ffffff;
+}
+#me{
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+
+.upperLt,.lowerLt,.rtSide,.post{
+    background-color:#1b1f23 ;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.cover{
+    background-color: #5b696b;
+    height: 50px;
+    z-index: -100;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#profilePic{
+
+    text-align: center;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #1b1f23;
+}
+
+.personal:hover{
+    color: white;
+    text-decoration:underline ;
+}
+.name{
+    font-size: medium;
+    text-align: center;
+    font-size: small;
+    color: white;
+    padding: 0;
+}
+.bio,.date{
+    font-size: smaller;
+    padding: none;
+    }
+
+.connections,.premium,.savedItems,.recent,.groups,.events,.hashtags{
+    padding: 10px 20px 10px 10px ;
+    text-align: left;
+    border-top: 1px solid #373a3d;
+}
+#group,.events a span,.hashtags a,.hash,.events,.groups,.hashtags,#count{
+    color:#71b7fb;
+}
+
+
+
+.events:hover,#group:hover,.hashtags:hover,.hash:hover{
+    text-decoration: underline;
+}
+#group{
+    padding-bottom: 5px;
+}
+.recent{
+    border: none;
+}
+.discover{
+    padding: 10px 20px 10px 10px ;
+    border-top: 1px solid #373a3d;
+    text-align: center;
+
+}
+.discover a{
+    color: white;
+    
+}
+.heading{
+    text-align: center;
+    padding:10px;
+}
+#count{
+    float: inline-end;
+}
+
+.groups i,.events i{
+float: inline-start;}
+#group{
+    display: block;
+}
+.Ltlinks{
+    display: block;
+    height: 100%;
+}
+.groupIcon{
+    margin: 5px;
+    
+}
+
+/* Rt side */
+
+.feedPic{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    padding:10px 15px;
+    float: left;
+}
+
+.msgPic{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+
+.msg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:#1b1f23 ;
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+.msg a span{
+    position: relative;
+    top:-40%;
+}
+
+.msgIcon{
+    float: inline-end;
+}
+
+.media,.reaction{
+    display: inline-block;
+    padding:  0 30px;
+    
+}
+
+.mediaBar,.reactionsBar{
+    padding: 10px ;
+    text-align: center;
+}
+
+.postContent p{
+    padding: 10px 15px ;
+}
+
+.profile_post{
+    display :inline-block;
+}
+
+.postData{
+    padding-top: 10px;
+    display:inline-block;
+}
+.postData .name:hover{
+    color: #71b7fb;
+    text-decoration: underline;
+}
+
+.followPost,.x{
+    float: inline-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.followPost a i ,.followPost a span{
+    color: #71b7fb;
+    font-size: medium;
+    
+}
+
+.followPost :hover{
+    background-color: #1f2f41;
+}
+
+.personalLt{
+    text-align: center;
+    z-index: 100;
+}
+
+.centerStart{
+    margin:auto;
+    display: inline-block;
+    text-align: center;
+    padding:15px;
+    
+}
+
+.startPost{
+    height: 40px;
+    margin: auto;
+    width:380px;
+    border-radius:20px;
+    background-color: #1b1f23;
+    color: #c4c5c6;
+    border: 0.5px solid #c4c5c6;
+}
+
+.postInternal p{
+    color: white;
+}
+.follow{
+    border-radius:20px;
+    background-color: #1b1f23;
+    color: #c4c5c6;
+    border: 0.5px solid #c4c5c6;
+    padding:5px 10px;
+}
+.follow:hover{
+    cursor: pointer;
+}
+
+.follow:hover, .media:hover,.reaction:hover,.discover:hover ,.savedItems:hover,
+.connections:hover , .premium:hover , #recommendation:hover , .groups  div:hover,
+.recent a:hover ,.startPost:hover{
+    background-color: #2c2f33;
+}
+
+.rtLinks a:hover{
+    text-decoration: underline;
+    color:#71b7fb; 
+}
+
+.feed,#recommendation{
+    padding:10px;
+}
+#recommendation{
+    display: inline-block;
+}
+.rtLinks{
+    padding:10px 25px;
+    text-align: center;
+}
+.rtLinks a{
+    padding:5px ;
+}
+.copyRights{
+    text-align: center;
+}
+
+
+.person{
+    padding:5px;
+}
+.comments,.commentSpan{
+    float: inline-end;
+    font-size: smaller;
+}
+.comments:hover{
+text-decoration: underline;
+}
+.comments{
+    margin-right: 5px ;
+}
